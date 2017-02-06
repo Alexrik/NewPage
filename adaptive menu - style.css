@@ -1,0 +1,55 @@
+body {
+	background-color: #be6200;
+}
+
+nav {
+	background-color: #733b00;
+	
+}
+
+nav li {
+	display: inline-block;	
+}
+
+nav a {
+	display: block; 
+	text-decoration: none;
+	padding: 15px;
+	color: #79f0f2;
+}
+
+nav ul {
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.menu-trigger {
+	text-align: center;
+	display: none;
+}
+
+nav a:hover {
+	background-color: #2a8b8c;
+}
+
+@media screen and (max-width: 600px){
+
+	nav li {
+		display: block;
+		text-align: center;
+
+	}
+
+	nav a {
+		border-bottom: 2px solid #bfbfbf;
+	}
+
+	nav ul { 
+		display: none;
+	}
+
+	.menu-trigger {
+		border-bottom: 0px solid #000000;
+		display: block;
+	}	
+}
